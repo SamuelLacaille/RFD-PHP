@@ -1,1 +1,171 @@
 @import "reset.css";
+
+/*          *\
+    GLOBALE
+\*          */
+
+body
+{
+    width: 100%;
+    font-family: 'Arial Black', 'Times New Roman', sans-serif;
+    font-weight: normal;
+    color: #181818;
+    background-color: #2d2d2d;
+}
+
+/*          *\
+    HEADER
+\*          */
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    background: #393974;
+}
+
+header h1
+{
+    color: #fff;
+    font-size: 1.75em;
+    text-align: justify;
+    font-family: Merriweather, 'Times New Roman', sans-serif;
+    font-weight: normal;
+    color: rgb(249, 44, 139);
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+
+/*              *\
+    NAGIGATION
+\*              */
+
+nav
+{
+    font-family: 'Cormorant Upright', Merriweather, Arial, sans-serif;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background: rgba(77, 77, 155, 0.75);
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav a:link
+{
+    font-size: 1.25em;
+    color: rgb(249, 44, 139);
+    text-decoration: none;
+
+}
+
+nav a:visited
+{
+    font-size: 1.25em;
+    color: rgb(249, 44, 139); /* #ff699a */
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #8add00;
+    border-bottom: 3px solid #8add00;
+}
+
+nav a:focus
+{
+    color: #8add00;
+    border-bottom: 3px solid #8add00;
+}
+
+nav a:active
+{
+    color: #8add00;
+    border-bottom: 3px solid #8add00;
+}
+
+/* .jumbotron
+{
+    background-color: red;
+}
+
+div[class^="col-md"]:nth-child(1)
+{
+    background-color: green;
+}
+
+div[class^="col-md"]:nth-child(2)
+{
+    background-color: yellow;
+}
+
+div[class^="col-md"]:nth-child(3)
+{
+    background-color: red;
+}
+
+*/
+
+/*        *\
+    MAIN
+\*        */
+
+
+/*          *\
+    FOOTER
+\*          */
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cormorant Upright', Merriweather, Arial, sans-serif;
+    background-color: #383838;
+    opacity: 0.85;
+}
+
+/*footer div:nth-child(1)
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}*/
+
+footer ul
+{
+    height: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer a:link
+{
+    font-size: 1.25em;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    color: #ff699a;
+    border-bottom: 3px solid #ff699a;
+}
+
+footer a:focus
+{
+    color: #8add00;
+    border-bottom: 3px solid #8add00;
+}
