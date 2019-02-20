@@ -1,6 +1,6 @@
 <body>
 <header>
-    <h1>Site test</h1>
+    <h1>Site teste</h1>
     <nav>
         <ul>
             <?php
